@@ -1,0 +1,115 @@
+/* src/TodoApp.css */
+.todo-app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .todo-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item span {
+    flex: 1;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons button:nth-child(1) {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .buttons button:nth-child(1):hover {
+    background-color: #e0a800;
+  }
+  
+  .buttons button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .buttons button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
+  .edit-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .edit-form button:hover {
+    background-color: #0056b3;
+  }
+  
